@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from addvectors_srvcli/srv/AddVectorsSrv.srv
+// generated code does not contain a copyright notice
+
+
+module addvectors_srvcli {
+  module srv {
+    struct AddVectorsSrv_Request {
+      sequence<float> v1;
+
+      sequence<float> v2;
+    };
+    struct AddVectorsSrv_Response {
+      sequence<float> sum;
+    };
+  };
+};

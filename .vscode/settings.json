@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/expert_amateur/voidwalking/ros2_ws/install/waypoints/lib/python3.10/site-packages",
+        "/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/local/lib/python3.10/dist-packages",
+        "/home/expert_amateur/voidwalking/ros2_ws/install/mapping/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/expert_amateur/voidwalking/ros2_ws/install/waypoints/lib/python3.10/site-packages",
+        "/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/local/lib/python3.10/dist-packages",
+        "/home/expert_amateur/voidwalking/ros2_ws/install/mapping/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.associations": {
+        "memory": "cpp",
+        "chrono": "cpp",
+        "string": "cpp"
+    }
+}

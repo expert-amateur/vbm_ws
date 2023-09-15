@@ -1,0 +1,12 @@
+[0.026s] Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.084s] [ 50%] Built target listener
+[0.088s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.178s] [01m[K/home/expert_amateur/vbm_ws/src/cpp_pubsub/src/publisher_member_function.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgps_msgs/msg/gps_fix.hpp: No such file or directory
+[0.179s]    20 | #include [01;31m[K<gps_msgs/msg/gps_fix.hpp>[m[K
+[0.179s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.179s] compilation terminated.
+[0.180s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.180s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.181s] gmake: *** [Makefile:146: all] Error 2
+[0.183s] Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12

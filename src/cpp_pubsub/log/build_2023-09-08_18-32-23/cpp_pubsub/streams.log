@@ -1,0 +1,74 @@
+[0.015s] Invoking command in '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake /home/expert_amateur/vbm_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.433s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.582s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.588s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.597s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.710s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.803s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.830s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.880s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.891s] -- Looking for pthread.h
+[0.950s] -- Looking for pthread.h - found
+[0.950s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.010s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.010s] -- Found Threads: TRUE  
+[1.183s] -- Found gps_msgs: 2.0.2 (/opt/ros/humble/share/gps_msgs/cmake)
+[1.235s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.327s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.327s] -- Configured cppcheck include dirs: 
+[1.327s] -- Configured cppcheck exclude dirs and/or files: 
+[1.328s] -- Added test 'lint_cmake' to check CMake code style
+[1.332s] -- Added test 'uncrustify' to check C / C++ code style
+[1.332s] -- Configured uncrustify additional arguments: 
+[1.333s] -- Added test 'xmllint' to check XML markup files
+[1.334s] -- Configuring done
+[1.346s] -- Generating done
+[1.347s] -- Build files have been written to: /home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub
+[1.354s] Invoked command in '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake /home/expert_amateur/vbm_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub
+[1.356s] Invoking command in '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub -- -j12 -l12
+[1.396s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.396s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.484s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[5.658s] [ 75%] Built target talker
+[9.157s] [100%] [32m[1mLinking CXX executable listener[0m
+[9.489s] [100%] Built target listener
+[9.499s] Invoked command in '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub -- -j12 -l12
+[9.532s] Invoking command in '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub
+[9.540s] -- Install configuration: ""
+[9.540s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[9.541s] -- Set runtime path of "/home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[9.541s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener
+[9.544s] -- Set runtime path of "/home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[9.544s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[9.544s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[9.544s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[9.545s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[9.546s] -- Installing: /home/expert_amateur/vbm_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[9.548s] Invoked command in '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub

@@ -1,0 +1,4 @@
+source;share/addvectors_srvcli/local_setup.bash
+source;share/addvectors_srvcli/local_setup.dsv
+source;share/addvectors_srvcli/local_setup.sh
+source;share/addvectors_srvcli/local_setup.zsh

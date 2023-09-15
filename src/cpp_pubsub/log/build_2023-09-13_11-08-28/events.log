@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000772] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.013008] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.014601] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.014654] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'expert_amateur'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/lib:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite/lib:/home/expert_amateur/voidwalking/ros2_ws/install/mapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/expert_amateur'), ('OLDPWD', '/home/expert_amateur/vbm_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install:/home/expert_amateur/voidwalking/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'expert_amateur'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'expert_amateur'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/expert_amateur/.cargo/bin:/home/expert_amateur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OMEN-Laptop-15-ek0021tx:@/tmp/.ICE-unix/1953,unix/OMEN-Laptop-15-ek0021tx:/tmp/.ICE-unix/1953'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/018523c9_cb65_4057_8344_633ba012246d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I07FB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/vbm_ws/install/cpp_srvcli:/home/expert_amateur/vbm_ws/install/cpp_pubsub:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints/lib/python3.10/site-packages:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/local/lib/python3.10/dist-packages:/home/expert_amateur/voidwalking/ros2_ws/install/mapping/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/vbm_ws/install/cpp_srvcli:/home/expert_amateur/vbm_ws/install/cpp_pubsub:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble')]), 'shell': False}
+[0.039721] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099872] (-) TimerEvent: {}
+[0.173855] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199968] (-) TimerEvent: {}
+[0.203526] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.205741] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.211157] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.222243] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.237745] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300100] (-) TimerEvent: {}
+[0.300794] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.303413] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400210] (-) TimerEvent: {}
+[0.425590] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500320] (-) TimerEvent: {}
+[0.590432] (cpp_pubsub) StdoutLine: {'line': b'-- Found gps_msgs: 2.0.2 (/opt/ros/humble/share/gps_msgs/cmake)\n'}
+[0.600415] (-) TimerEvent: {}
+[0.636617] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.700523] (-) TimerEvent: {}
+[0.755315] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800608] (-) TimerEvent: {}
+[0.840946] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.841081] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.841144] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.841979] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.843943] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.844965] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.851243] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.851337] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.852303] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.853300] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.865561] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.866985] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/expert_amateur/vbm_ws/src/cpp_pubsub/build/cpp_pubsub\n'}
+[0.889040] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.889179] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.900694] (-) TimerEvent: {}
+[0.903702] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.903841] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.000822] (-) TimerEvent: {}
+[1.101111] (-) TimerEvent: {}
+[1.201404] (-) TimerEvent: {}
+[1.301698] (-) TimerEvent: {}
+[1.402010] (-) TimerEvent: {}
+[1.502317] (-) TimerEvent: {}
+[1.602636] (-) TimerEvent: {}
+[1.702951] (-) TimerEvent: {}
+[1.803259] (-) TimerEvent: {}
+[1.903556] (-) TimerEvent: {}
+[2.003862] (-) TimerEvent: {}
+[2.104169] (-) TimerEvent: {}
+[2.204460] (-) TimerEvent: {}
+[2.304776] (-) TimerEvent: {}
+[2.405101] (-) TimerEvent: {}
+[2.505381] (-) TimerEvent: {}
+[2.605668] (-) TimerEvent: {}
+[2.705965] (-) TimerEvent: {}
+[2.806282] (-) TimerEvent: {}
+[2.906582] (-) TimerEvent: {}
+[3.002517] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.002678] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.002742] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.002799] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.002858] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.002911] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.002965] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.003017] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.003070] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.003122] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.003173] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/expert_amateur/vbm_ws/src/cpp_pubsub/src/publisher_member_function.cpp:24\x1b[m\x1b[K:\n'}
+[3.003225] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/expert_amateur/vbm_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.003279] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/expert_amateur/vbm_ws/src/cpp_pubsub/src/publisher_member_function.cpp:50:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kdo\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.003341] (cpp_pubsub) StderrLine: {'line': b'   50 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Publishing: \'"<<message.num<<"\'");\n'}
+[3.003394] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.006679] (-) TimerEvent: {}
+[3.106936] (-) TimerEvent: {}
+[3.207248] (-) TimerEvent: {}
+[3.307562] (-) TimerEvent: {}
+[3.407880] (-) TimerEvent: {}
+[3.508205] (-) TimerEvent: {}
+[3.608516] (-) TimerEvent: {}
+[3.708811] (-) TimerEvent: {}
+[3.758965] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[3.759373] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[3.759480] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.808932] (-) TimerEvent: {}
+[3.909201] (-) TimerEvent: {}
+[4.009476] (-) TimerEvent: {}
+[4.109743] (-) TimerEvent: {}
+[4.210022] (-) TimerEvent: {}
+[4.310294] (-) TimerEvent: {}
+[4.410573] (-) TimerEvent: {}
+[4.510878] (-) TimerEvent: {}
+[4.611186] (-) TimerEvent: {}
+[4.711505] (-) TimerEvent: {}
+[4.811810] (-) TimerEvent: {}
+[4.912121] (-) TimerEvent: {}
+[5.012408] (-) TimerEvent: {}
+[5.112675] (-) TimerEvent: {}
+[5.212940] (-) TimerEvent: {}
+[5.313223] (-) TimerEvent: {}
+[5.413527] (-) TimerEvent: {}
+[5.513835] (-) TimerEvent: {}
+[5.614111] (-) TimerEvent: {}
+[5.714374] (-) TimerEvent: {}
+[5.814638] (-) TimerEvent: {}
+[5.914899] (-) TimerEvent: {}
+[6.015159] (-) TimerEvent: {}
+[6.115412] (-) TimerEvent: {}
+[6.215664] (-) TimerEvent: {}
+[6.315920] (-) TimerEvent: {}
+[6.416186] (-) TimerEvent: {}
+[6.516442] (-) TimerEvent: {}
+[6.616697] (-) TimerEvent: {}
+[6.716953] (-) TimerEvent: {}
+[6.817209] (-) TimerEvent: {}
+[6.917470] (-) TimerEvent: {}
+[7.017725] (-) TimerEvent: {}
+[7.117981] (-) TimerEvent: {}
+[7.218238] (-) TimerEvent: {}
+[7.318495] (-) TimerEvent: {}
+[7.418753] (-) TimerEvent: {}
+[7.519007] (-) TimerEvent: {}
+[7.619261] (-) TimerEvent: {}
+[7.719520] (-) TimerEvent: {}
+[7.819776] (-) TimerEvent: {}
+[7.920045] (-) TimerEvent: {}
+[8.020316] (-) TimerEvent: {}
+[8.120587] (-) TimerEvent: {}
+[8.220880] (-) TimerEvent: {}
+[8.321188] (-) TimerEvent: {}
+[8.363321] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.421313] (-) TimerEvent: {}
+[8.521581] (-) TimerEvent: {}
+[8.621853] (-) TimerEvent: {}
+[8.684084] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[8.684916] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.686429] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[8.722009] (-) TimerEvent: {}
+[8.724987] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[8.736388] (-) EventReactorShutdown: {}

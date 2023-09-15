@@ -1,0 +1,8 @@
+setup.py
+addvectors_srvcli/__init__.py
+addvectors_srvcli.egg-info/PKG-INFO
+addvectors_srvcli.egg-info/SOURCES.txt
+addvectors_srvcli.egg-info/dependency_links.txt
+addvectors_srvcli.egg-info/top_level.txt
+addvectors_srvcli/srv/__init__.py
+addvectors_srvcli/srv/_add_vectors_srv.py

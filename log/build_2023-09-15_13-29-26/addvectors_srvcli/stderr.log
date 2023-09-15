@@ -1,0 +1,4 @@
+[01m[K/home/expert_amateur/vbm_ws/src/addvectors_srvcli/src/add_vectors_server_src.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<addvectors_srvcli::srv::AddVectorsSrv_Request_<std::allocator<void> > >, std::shared_ptr<addvectors_srvcli::srv::AddVectorsSrv_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/expert_amateur/vbm_ws/src/addvectors_srvcli/src/add_vectors_server_src.cpp:7:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    7 | void add([01;35m[Kconst std::shared_ptr<addvectors_srvcli::srv::AddVectorsSrv::Request> request[m[K,     // CHANGE
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

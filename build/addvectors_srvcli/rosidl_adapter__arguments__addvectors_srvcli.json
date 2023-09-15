@@ -1,0 +1,6 @@
+{
+  "package_name": "addvectors_srvcli",
+  "non_idl_tuples": [
+    "/home/expert_amateur/vbm_ws/src/addvectors_srvcli:srv/AddVectorsSrv.srv"
+  ]
+}

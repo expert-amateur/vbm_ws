@@ -1,0 +1,2 @@
+Invoking command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/addvectors_srvcli -- -j12 -l12
+Invoked command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/addvectors_srvcli -- -j12 -l12

@@ -1,0 +1,1 @@
+Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12

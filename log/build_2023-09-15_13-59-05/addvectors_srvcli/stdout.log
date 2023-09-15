@@ -1,0 +1,25 @@
+[  2%] Built target addvectors_srvcli__cpp
+[ 11%] Built target addvectors_srvcli__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_addvectors_srvcli
+[ 20%] Built target addvectors_srvcli__rosidl_typesupport_cpp
+[ 28%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_c
+[ 45%] Built target addvectors_srvcli__rosidl_typesupport_introspection_cpp
+[ 54%] Built target addvectors_srvcli__rosidl_typesupport_c
+[ 62%] Built target addvectors_srvcli__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target add_vec_server_exec[0m
+[ 68%] Built target add_vec_client_exec
+[ 68%] Built target addvectors_srvcli
+[ 74%] Built target addvectors_srvcli__py
+[ 74%] [32mBuilding CXX object CMakeFiles/add_vec_server_exec.dir/src/add_vectors_server_src.cpp.o[0m
+[ 80%] Built target addvectors_srvcli__rosidl_generator_py
+[ 85%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target addvectors_srvcli__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target addvectors_srvcli__rosidl_typesupport_c__pyext
+running egg_info
+writing addvectors_srvcli.egg-info/PKG-INFO
+writing dependency_links to addvectors_srvcli.egg-info/dependency_links.txt
+writing top-level names to addvectors_srvcli.egg-info/top_level.txt
+reading manifest file 'addvectors_srvcli.egg-info/SOURCES.txt'
+writing manifest file 'addvectors_srvcli.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_addvectors_srvcli_egg

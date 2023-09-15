@@ -1,0 +1,55 @@
+[0.013s] Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[0.034s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.167s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.195s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.197s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.284s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.286s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.399s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Found gps_msgs: 2.0.2 (/opt/ros/humble/share/gps_msgs/cmake)
+[0.597s] -- Found tutorial_interfaces: 0.0.0 (/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.716s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.798s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.798s] -- Configured cppcheck include dirs: 
+[0.799s] -- Configured cppcheck exclude dirs and/or files: 
+[0.799s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.802s] -- Added test 'lint_cmake' to check CMake code style
+[0.803s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.809s] -- Added test 'uncrustify' to check C / C++ code style
+[0.809s] -- Configured uncrustify additional arguments: 
+[0.810s] -- Added test 'xmllint' to check XML markup files
+[0.811s] -- Configuring done
+[0.824s] -- Generating done
+[0.825s] -- Build files have been written to: /home/expert_amateur/vbm_ws/build/cpp_pubsub
+[0.847s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.847s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.861s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.861s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.990s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.990s]                  from [01m[K/home/expert_amateur/vbm_ws/src/cpp_pubsub/src/publisher_member_function.cpp:24[m[K:
+[2.990s] [01m[K/home/expert_amateur/vbm_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.991s] [01m[K/home/expert_amateur/vbm_ws/src/cpp_pubsub/src/publisher_member_function.cpp:50:52:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [14][m[K’ and ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+[2.991s]    50 |     RCLCPP_INFO(this->get_logger(), [32m[K"Publishing: '"[m[K[01;31m[K<<[m[K[34m[Kmessage.num[m[K<<"'");
+[2.991s]       |                                     [32m[K~~~~~~~~~~~~~~~[m[K[01;31m[K^~[m[K[34m[K~~~~~~~~~~~[m[K
+[2.991s]       |                                     [32m[K|[m[K                        [34m[K|[m[K
+[2.991s]       |                                     [32m[Kconst char [14][m[K          [34m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+[3.749s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[3.749s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[3.749s] gmake[1]: *** Waiting for unfinished jobs....
+[8.258s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[8.587s] [ 75%] Built target listener
+[8.588s] gmake: *** [Makefile:146: all] Error 2
+[8.590s] Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12

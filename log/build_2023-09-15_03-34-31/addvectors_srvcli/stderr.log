@@ -1,0 +1,14 @@
+[01m[K/home/expert_amateur/vbm_ws/src/addvectors_srvcli/src/add_vectors_server_src.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kaddvectors_srvcli/srv/AddVectorsSrv.hpp: No such file or directory
+    2 | #include [01;31m[K"addvectors_srvcli/srv/AddVectorsSrv.hpp"[m[K                                        // CHANGE
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/add_vec_server_exec.dir/build.make:76: CMakeFiles/add_vec_server_exec.dir/src/add_vectors_server_src.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/add_vec_server_exec.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/expert_amateur/vbm_ws/src/addvectors_srvcli/src/add_vectors_client_src.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kaddvectors_srvcli/srv/AddVectorsSrv.hpp: No such file or directory
+    2 | #include [01;31m[K"addvectors_srvcli/srv/AddVectorsSrv.hpp"[m[K                                        // CHANGE
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/add_vec_client_exec.dir/build.make:76: CMakeFiles/add_vec_client_exec.dir/src/add_vectors_client_src.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/add_vec_client_exec.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

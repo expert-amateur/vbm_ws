@@ -1,0 +1,6 @@
+[0.029s] Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.137s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.137s] [ 75%] Built target listener
+[4.116s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.292s] [100%] Built target talker

@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.060s] [ 75%] Built target listener
+[3.853s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.009s] [100%] Built target talker
+[4.018s] Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[4.041s] Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_pubsub
+[4.046s] -- Install configuration: ""
+[4.047s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.048s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[4.048s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[4.050s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[4.050s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.050s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.051s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.051s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.051s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.051s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.051s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.051s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.051s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.051s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.051s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.051s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.051s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.051s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.051s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.055s] Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_pubsub

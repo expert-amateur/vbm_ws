@@ -1,0 +1,80 @@
+[0.033s] Invoking command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/addvectors_srvcli -- -j12 -l12
+[0.055s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.279s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.321s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.323s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.329s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.425s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.427s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.764s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.049s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.514s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.536s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.536s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.536s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.552s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.560s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.560s] -- Configured cppcheck include dirs: 
+[1.560s] -- Configured cppcheck exclude dirs and/or files: 
+[1.561s] -- Added test 'lint_cmake' to check CMake code style
+[1.561s] -- Added test 'uncrustify' to check C / C++ code style
+[1.562s] -- Configured uncrustify additional arguments: 
+[1.562s] -- Added test 'xmllint' to check XML markup files
+[1.563s] -- Configuring done
+[1.591s] -- Generating done
+[1.594s] -- Build files have been written to: /home/expert_amateur/vbm_ws/build/addvectors_srvcli
+[1.619s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_generator_c[0m
+[1.628s] [  2%] Built target addvectors_srvcli__cpp
+[1.628s] [ 11%] Built target addvectors_srvcli__rosidl_generator_c
+[1.637s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_introspection_cpp[0m
+[1.637s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_fastrtps_cpp[0m
+[1.637s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_c[0m
+[1.638s] [ 11%] Built target ament_cmake_python_copy_addvectors_srvcli
+[1.640s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_cpp[0m
+[1.640s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_introspection_c[0m
+[1.640s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_fastrtps_c[0m
+[1.651s] [ 20%] Built target addvectors_srvcli__rosidl_typesupport_c
+[1.652s] [ 28%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_cpp
+[1.652s] [ 37%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_c
+[1.653s] [ 51%] Built target addvectors_srvcli__rosidl_typesupport_introspection_cpp
+[1.653s] [ 54%] Built target addvectors_srvcli__rosidl_typesupport_introspection_c
+[1.655s] [ 62%] Built target addvectors_srvcli__rosidl_typesupport_cpp
+[1.674s] [ 65%] [32mBuilding CXX object CMakeFiles/add_vec_server_exec.dir/src/add_vectors_server_src.cpp.o[0m
+[1.674s] [ 65%] Built target addvectors_srvcli
+[1.676s] [ 68%] [32mBuilding CXX object CMakeFiles/add_vec_client_exec.dir/src/add_vectors_client_src.cpp.o[0m
+[1.693s] [ 71%] Built target addvectors_srvcli__py
+[1.702s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_generator_py[0m
+[1.714s] [ 77%] Built target addvectors_srvcli__rosidl_generator_py
+[1.724s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_c__pyext[0m
+[1.724s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.727s] [35m[1mConsolidate compiler generated dependencies of target addvectors_srvcli__rosidl_typesupport_introspection_c__pyext[0m
+[1.737s] [ 82%] Built target addvectors_srvcli__rosidl_typesupport_c__pyext
+[1.739s] [ 88%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_c__pyext
+[1.743s] [ 94%] Built target addvectors_srvcli__rosidl_typesupport_introspection_c__pyext
+[1.859s] [01m[K/home/expert_amateur/vbm_ws/src/addvectors_srvcli/src/add_vectors_server_src.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kaddvectors_srvcli/srv/AddVectorsSrv.hpp: No such file or directory
+[1.859s]     2 | #include [01;31m[K"addvectors_srvcli/srv/AddVectorsSrv.hpp"[m[K                                        // CHANGE
+[1.859s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.859s] compilation terminated.
+[1.862s] gmake[2]: *** [CMakeFiles/add_vec_server_exec.dir/build.make:76: CMakeFiles/add_vec_server_exec.dir/src/add_vectors_server_src.cpp.o] Error 1
+[1.862s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/add_vec_server_exec.dir/all] Error 2
+[1.862s] gmake[1]: *** Waiting for unfinished jobs....
+[1.883s] [01m[K/home/expert_amateur/vbm_ws/src/addvectors_srvcli/src/add_vectors_client_src.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kaddvectors_srvcli/srv/AddVectorsSrv.hpp: No such file or directory
+[1.883s]     2 | #include [01;31m[K"addvectors_srvcli/srv/AddVectorsSrv.hpp"[m[K                                        // CHANGE
+[1.883s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.883s] compilation terminated.
+[1.885s] gmake[2]: *** [CMakeFiles/add_vec_client_exec.dir/build.make:76: CMakeFiles/add_vec_client_exec.dir/src/add_vectors_client_src.cpp.o] Error 1
+[1.885s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/add_vec_client_exec.dir/all] Error 2
+[1.952s] running egg_info
+[1.953s] writing addvectors_srvcli.egg-info/PKG-INFO
+[1.953s] writing dependency_links to addvectors_srvcli.egg-info/dependency_links.txt
+[1.953s] writing top-level names to addvectors_srvcli.egg-info/top_level.txt
+[1.955s] reading manifest file 'addvectors_srvcli.egg-info/SOURCES.txt'
+[1.956s] writing manifest file 'addvectors_srvcli.egg-info/SOURCES.txt'
+[1.980s] [ 94%] Built target ament_cmake_python_build_addvectors_srvcli_egg
+[1.981s] gmake: *** [Makefile:146: all] Error 2
+[1.983s] Invoked command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/addvectors_srvcli -- -j12 -l12

@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/include/**",
+                "/home/expert_amateur/voidwalking/ros2_ws/install/mapping/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/expert_amateur/vbm_ws/src/cpp_pubsub/include/**",
+                "/home/expert_amateur/vbm_ws/src/cpp_srvcli/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/install/tutorial_interfaces/include/tutorial_interfaces",
+                "${workspaceFolder}/build/addvectors_srvcli/rosidl_generator_cpp"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
