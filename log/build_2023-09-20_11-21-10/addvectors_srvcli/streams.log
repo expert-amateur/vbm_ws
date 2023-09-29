@@ -1,0 +1,152 @@
+[0.039s] Invoking command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/addvectors_srvcli -- -j12 -l12
+[0.101s] [  2%] Built target addvectors_srvcli__cpp
+[0.102s] [ 11%] Built target addvectors_srvcli__rosidl_generator_c
+[0.137s] [ 11%] Built target ament_cmake_python_copy_addvectors_srvcli
+[0.137s] [ 20%] Built target addvectors_srvcli__rosidl_typesupport_cpp
+[0.140s] [ 28%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_cpp
+[0.159s] [ 37%] Built target addvectors_srvcli__rosidl_typesupport_introspection_cpp
+[0.184s] [ 45%] Built target addvectors_srvcli__rosidl_typesupport_c
+[0.185s] [ 54%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_c
+[0.187s] [ 62%] Built target addvectors_srvcli__rosidl_typesupport_introspection_c
+[0.194s] [ 68%] Built target add_vec_server_exec
+[0.205s] [ 74%] Built target add_vec_client_exec
+[0.227s] [ 74%] Built target addvectors_srvcli
+[0.252s] [ 77%] Built target addvectors_srvcli__py
+[0.284s] [ 82%] Built target addvectors_srvcli__rosidl_generator_py
+[0.319s] [ 88%] Built target addvectors_srvcli__rosidl_typesupport_introspection_c__pyext
+[0.319s] [ 94%] Built target addvectors_srvcli__rosidl_typesupport_c__pyext
+[0.319s] [100%] Built target addvectors_srvcli__rosidl_typesupport_fastrtps_c__pyext
+[0.570s] running egg_info
+[0.571s] writing addvectors_srvcli.egg-info/PKG-INFO
+[0.571s] writing dependency_links to addvectors_srvcli.egg-info/dependency_links.txt
+[0.571s] writing top-level names to addvectors_srvcli.egg-info/top_level.txt
+[0.574s] reading manifest file 'addvectors_srvcli.egg-info/SOURCES.txt'
+[0.574s] writing manifest file 'addvectors_srvcli.egg-info/SOURCES.txt'
+[0.604s] [100%] Built target ament_cmake_python_build_addvectors_srvcli_egg
+[0.616s] Invoked command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/addvectors_srvcli -- -j12 -l12
+[0.678s] Invoking command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/addvectors_srvcli
+[0.686s] -- Install configuration: ""
+[0.687s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/ament_index/resource_index/rosidl_interfaces/addvectors_srvcli
+[0.687s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli
+[0.687s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv
+[0.687s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail
+[0.687s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__type_support.h
+[0.687s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__functions.c
+[0.687s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__functions.h
+[0.687s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__struct.h
+[0.688s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/add_vectors_srv.h
+[0.688s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/msg
+[0.688s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/msg/rosidl_generator_c__visibility_control.h
+[0.688s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/environment/library_path.sh
+[0.688s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/environment/library_path.dsv
+[0.688s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/libaddvectors_srvcli__rosidl_generator_c.so
+[0.688s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli
+[0.689s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv
+[0.689s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail
+[0.689s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__rosidl_typesupport_fastrtps_c.h
+[0.689s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/msg
+[0.689s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.689s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/libaddvectors_srvcli__rosidl_typesupport_fastrtps_c.so
+[0.689s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__builder.hpp
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__traits.hpp
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__struct.hpp
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/add_vectors_srv.hpp
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/dds_fastrtps
+[0.690s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[0.691s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/msg
+[0.691s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.691s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/libaddvectors_srvcli__rosidl_typesupport_fastrtps_cpp.so
+[0.691s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli
+[0.691s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv
+[0.691s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail
+[0.691s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__type_support.c
+[0.692s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__rosidl_typesupport_introspection_c.h
+[0.692s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/msg
+[0.693s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.695s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/libaddvectors_srvcli__rosidl_typesupport_introspection_c.so
+[0.695s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/libaddvectors_srvcli__rosidl_typesupport_c.so
+[0.695s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli
+[0.696s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv
+[0.696s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail
+[0.696s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__type_support.cpp
+[0.696s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/include/addvectors_srvcli/addvectors_srvcli/srv/detail/add_vectors_srv__rosidl_typesupport_introspection_cpp.hpp
+[0.696s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/libaddvectors_srvcli__rosidl_typesupport_introspection_cpp.so
+[0.696s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/libaddvectors_srvcli__rosidl_typesupport_cpp.so
+[0.696s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/environment/pythonpath.sh
+[0.697s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/environment/pythonpath.dsv
+[0.697s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli-0.0.0-py3.10.egg-info
+[0.697s] -- Installing: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.697s] -- Installing: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli-0.0.0-py3.10.egg-info/PKG-INFO
+[0.697s] -- Installing: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.697s] -- Installing: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli-0.0.0-py3.10.egg-info/top_level.txt
+[0.697s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli
+[0.697s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/_addvectors_srvcli_s.ep.rosidl_typesupport_c.c
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/srv
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/srv/__init__.py
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/srv/_add_vectors_srv.py
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/srv/_add_vectors_srv_s.c
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/__init__.py
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/addvectors_srvcli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/addvectors_srvcli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/_addvectors_srvcli_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.698s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/addvectors_srvcli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.699s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/_addvectors_srvcli_s.ep.rosidl_typesupport_introspection_c.c
+[0.699s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/libaddvectors_srvcli__rosidl_generator_py.so
+[0.742s] Listing '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli'...
+[0.742s] Listing '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/srv'...
+[0.759s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/addvectors_srvcli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.759s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/addvectors_srvcli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.759s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages/addvectors_srvcli/addvectors_srvcli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.759s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/libaddvectors_srvcli__rosidl_generator_py.so
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/srv/AddVectorsSrv.idl
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/srv/AddVectorsSrv.srv
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/srv/AddVectorsSrv_Request.msg
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/srv/AddVectorsSrv_Response.msg
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/addvectors_srvcli/add_vec_server_exec
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/addvectors_srvcli/add_vec_client_exec
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/ament_index/resource_index/package_run_dependencies/addvectors_srvcli
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/ament_index/resource_index/parent_prefix_path/addvectors_srvcli
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/environment/ament_prefix_path.sh
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/environment/ament_prefix_path.dsv
+[0.760s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/environment/path.sh
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/environment/path.dsv
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/local_setup.bash
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/local_setup.sh
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/local_setup.zsh
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/local_setup.dsv
+[0.761s] -- Installing: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.dsv
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/ament_index/resource_index/packages/addvectors_srvcli
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_generator_cExport.cmake
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_generator_cExport-noconfig.cmake
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_typesupport_fastrtps_cExport.cmake
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_generator_cppExport.cmake
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.761s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcli__rosidl_typesupport_introspection_cExport.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcli__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcli__rosidl_typesupport_cExport.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcli__rosidl_typesupport_cExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcli__rosidl_typesupport_introspection_cppExport.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcli__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcli__rosidl_typesupport_cppExport.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcli__rosidl_typesupport_cppExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_generator_pyExport.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/export_addvectors_srvcli__rosidl_generator_pyExport-noconfig.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/rosidl_cmake-extras.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/ament_cmake_export_libraries-extras.cmake
+[0.762s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/ament_cmake_export_targets-extras.cmake
+[0.763s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.763s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.763s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.763s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcliConfig.cmake
+[0.763s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/cmake/addvectors_srvcliConfig-version.cmake
+[0.763s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.xml
+[0.776s] Invoked command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/addvectors_srvcli

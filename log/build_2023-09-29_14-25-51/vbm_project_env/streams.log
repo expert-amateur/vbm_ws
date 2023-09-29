@@ -1,0 +1,26 @@
+[0.313s] Invoking command in '/home/expert_amateur/vbm_ws/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/vbm_project_env -- -j12 -l12
+[0.624s] Invoked command in '/home/expert_amateur/vbm_ws/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/vbm_project_env -- -j12 -l12
+[1.212s] Invoking command in '/home/expert_amateur/vbm_ws/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/vbm_project_env
+[1.313s] -- Install configuration: ""
+[1.314s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/launch
+[1.315s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/launch/simulation.launch.py
+[1.315s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/worlds
+[1.315s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/worlds/simulation.world
+[1.315s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/urdf
+[1.315s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/urdf/camera.urdf
+[1.315s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/ament_index/resource_index/package_run_dependencies/vbm_project_env
+[1.317s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/ament_index/resource_index/parent_prefix_path/vbm_project_env
+[1.317s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.sh
+[1.318s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.dsv
+[1.318s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/environment/path.sh
+[1.318s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/environment/path.dsv
+[1.318s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/local_setup.bash
+[1.318s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/local_setup.sh
+[1.318s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/local_setup.zsh
+[1.319s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/local_setup.dsv
+[1.319s] -- Installing: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/package.dsv
+[1.322s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/ament_index/resource_index/packages/vbm_project_env
+[1.324s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig.cmake
+[1.325s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig-version.cmake
+[1.326s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/vbm_project_env/share/vbm_project_env/package.xml
+[1.919s] Invoked command in '/home/expert_amateur/vbm_ws/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/vbm_project_env

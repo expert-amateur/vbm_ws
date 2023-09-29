@@ -1,0 +1,26 @@
+[2.337s] Invoking command in '/home/expert_amateur/vbm_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/polygon_base -- -j12 -l12
+[2.504s] [100%] Built target area_node
+[2.543s] Invoked command in '/home/expert_amateur/vbm_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/polygon_base -- -j12 -l12
+[3.246s] Invoking command in '/home/expert_amateur/vbm_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/polygon_base
+[3.348s] -- Install configuration: ""
+[3.348s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/include
+[3.348s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/include/polygon_base
+[3.348s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[3.349s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/lib/polygon_base/area_node
+[3.349s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[3.349s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[3.349s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[3.349s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[3.349s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[3.349s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[3.350s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[3.350s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[3.350s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[3.350s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[3.350s] -- Installing: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.dsv
+[3.350s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[3.351s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.370s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[3.376s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[3.377s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.xml
+[3.719s] Invoked command in '/home/expert_amateur/vbm_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/polygon_base

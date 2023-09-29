@@ -1,0 +1,57 @@
+[0.323s] Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[0.353s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.524s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.560s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.563s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.570s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.708s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.711s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.073s] -- Found gps_msgs: 2.0.3 (/opt/ros/humble/share/gps_msgs/cmake)
+[1.125s] -- Found tutorial_interfaces: 0.0.0 (/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.269s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.379s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.380s] -- Configured cppcheck include dirs: 
+[1.380s] -- Configured cppcheck exclude dirs and/or files: 
+[1.381s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.383s] -- Added test 'lint_cmake' to check CMake code style
+[1.384s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.391s] -- Added test 'uncrustify' to check C / C++ code style
+[1.391s] -- Configured uncrustify additional arguments: 
+[1.393s] -- Added test 'xmllint' to check XML markup files
+[1.394s] -- Configuring done
+[1.411s] -- Generating done
+[1.412s] -- Build files have been written to: /home/expert_amateur/vbm_ws/build/cpp_pubsub
+[1.440s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.441s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.459s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.459s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.049s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.237s] [ 75%] Built target talker
+[9.490s] [100%] [32m[1mLinking CXX executable listener[0m
+[9.810s] [100%] Built target listener
+[9.820s] Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[9.843s] Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_pubsub
+[9.849s] -- Install configuration: ""
+[9.850s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[9.851s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[9.852s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[9.855s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[9.855s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[9.855s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[9.855s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[9.855s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[9.856s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[9.856s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[9.856s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[9.856s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[9.856s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[9.856s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[9.856s] -- Installing: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[9.856s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[9.856s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[9.856s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[9.856s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[9.858s] Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_pubsub

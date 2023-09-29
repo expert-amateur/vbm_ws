@@ -1,0 +1,294 @@
+[0.705s] Invoking command in '/home/expert_amateur/vbm_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/tutorial_interfaces -- -j12 -l12
+[0.741s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.931s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.967s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.969s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.977s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.992s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.174s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.554s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.044s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.274s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.302s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.302s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.351s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.363s] -- Added test 'lint_cmake' to check CMake code style
+[2.365s] -- Added test 'xmllint' to check XML markup files
+[2.367s] -- Configuring done
+[2.426s] -- Generating done
+[2.430s] -- Build files have been written to: /home/expert_amateur/vbm_ws/build/tutorial_interfaces
+[2.458s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.477s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.488s] [  4%] Built target ament_cmake_python_copy_tutorial_interfaces
+[3.066s] running egg_info
+[3.067s] writing tutorial_interfaces.egg-info/PKG-INFO
+[3.068s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[3.068s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[3.073s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.074s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.123s] [  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[3.293s] [  4%] Built target tutorial_interfaces__cpp
+[3.308s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[3.311s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.311s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.312s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.333s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[3.348s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[3.349s] [ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[3.471s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[3.527s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[3.541s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.545s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.545s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.849s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[3.873s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.874s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.882s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.071s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[4.093s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.121s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.124s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[4.139s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[4.142s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.160s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[4.160s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[4.173s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[4.192s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[4.277s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[4.292s] [ 51%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[4.317s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[4.368s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[4.442s] [ 55%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[4.458s] [ 57%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[4.463s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.481s] [ 59%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[4.502s] [ 61%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[4.509s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_c
+[4.531s] [ 63%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[4.580s] [ 65%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[4.595s] [ 68%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.666s] [ 70%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.729s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[4.832s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[5.148s] [ 72%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.248s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.248s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.301s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.325s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[5.399s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[5.423s] [ 76%] Built target tutorial_interfaces
+[5.447s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.156s] [ 78%] Built target tutorial_interfaces__py
+[6.169s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py[0m
+[6.186s] [ 80%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[6.190s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[6.190s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[6.360s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[6.412s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[6.426s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[6.430s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.430s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[6.440s] [ 89%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.451s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.451s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.567s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.614s] [ 95%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[6.618s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.650s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.663s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.701s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.715s] Invoked command in '/home/expert_amateur/vbm_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/tutorial_interfaces -- -j12 -l12
+[6.903s] Invoking command in '/home/expert_amateur/vbm_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/tutorial_interfaces
+[6.911s] -- Install configuration: ""
+[6.911s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[6.912s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[6.912s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[6.912s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[6.912s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[6.912s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[6.913s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[6.913s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[6.913s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[6.913s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[6.914s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[6.914s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[6.914s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[6.914s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[6.914s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[6.914s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[6.915s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[6.915s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[6.915s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[6.915s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[6.916s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[6.916s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.916s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[6.917s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[6.917s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[6.917s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[6.918s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[6.918s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[6.918s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[6.918s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[6.919s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[6.919s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.919s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[6.919s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[6.919s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[6.919s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.920s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.920s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[6.920s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[6.920s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[6.921s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[6.921s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[6.921s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[6.921s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[6.921s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[6.921s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[6.922s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[6.922s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[6.922s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[6.922s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[6.923s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[6.923s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[6.923s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[6.923s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[6.924s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[6.924s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[6.924s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[6.924s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.924s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[6.924s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[6.924s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.924s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[6.924s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[6.924s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[6.925s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[6.925s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.925s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.925s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[6.925s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[6.925s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[6.925s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[6.926s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[6.926s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[6.927s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.927s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[6.927s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[6.927s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[6.928s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[6.928s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[6.929s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[6.929s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.929s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[6.929s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[6.930s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[6.930s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[6.930s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[6.930s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[6.930s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[6.930s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[6.931s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[6.931s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[6.931s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[6.931s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[6.931s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[6.931s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.932s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.932s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[6.932s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.932s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[6.932s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[6.932s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[6.933s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.933s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.933s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.933s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.933s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[6.933s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[6.934s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[6.934s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py
+[6.934s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[6.934s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[6.934s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.934s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.934s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.935s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[6.935s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[6.935s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[6.935s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py
+[6.935s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[6.935s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c
+[6.936s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[6.936s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[6.936s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.936s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.973s] Listing '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[6.973s] Compiling '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[6.974s] Listing '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[6.974s] Compiling '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[6.975s] Compiling '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[6.975s] Compiling '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...
+[6.975s] Listing '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[6.976s] Compiling '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[6.976s] Compiling '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[6.977s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.977s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.978s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.979s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.979s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.980s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.980s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[6.981s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[6.982s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[6.983s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[6.983s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[6.984s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[6.984s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[6.985s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[6.988s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[6.988s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[6.989s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[6.989s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[6.990s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[6.990s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[6.992s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[6.992s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[6.993s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[6.993s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[6.994s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[6.995s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[6.995s] -- Installing: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[6.996s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[6.997s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[6.997s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.998s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.998s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.999s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[6.999s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.000s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.000s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.001s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.001s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[7.002s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.002s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.002s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.003s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[7.004s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.004s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[7.005s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.005s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.006s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.006s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.007s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.007s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.007s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.008s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.009s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[7.010s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[7.011s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[7.085s] Invoked command in '/home/expert_amateur/vbm_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/tutorial_interfaces

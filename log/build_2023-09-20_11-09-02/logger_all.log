@@ -1,0 +1,711 @@
+[0.772s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.772s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f03bf00e4a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f03bf00df30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f03bf00df30>>)
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.809s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/expert_amateur/vbm_ws'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extension 'ignore_ament_install'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extensions ['colcon_pkg']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extension 'colcon_pkg'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extensions ['colcon_meta']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extension 'colcon_meta'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extensions ['ros']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extension 'ros'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extensions ['cmake', 'python']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extension 'cmake'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extension 'python'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extensions ['python_setup_py']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(Screenshots) by extension 'python_setup_py'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extension 'ignore'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extension 'ignore_ament_install'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extensions ['colcon_pkg']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extension 'colcon_pkg'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extensions ['colcon_meta']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extension 'colcon_meta'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extensions ['ros']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/addvectors_srvcli) by extension 'ros'
+[0.840s] DEBUG:colcon.colcon_core.package_identification:Package 'src/addvectors_srvcli' with type 'ros.ament_cmake' and name 'addvectors_srvcli'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore_ament_install'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_pkg']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_pkg'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_meta']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_meta'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ros']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ros'
+[0.841s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.842s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[0.845s] DEBUG:colcon.colcon_core.package_identification:Package 'src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore_ament_install'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_pkg']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_pkg'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_meta']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ros']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ros'
+[0.848s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_plugins' with type 'ros.ament_cmake' and name 'polygon_plugins'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extension 'ignore'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extension 'ignore_ament_install'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extensions ['colcon_pkg']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extension 'colcon_pkg'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extensions ['colcon_meta']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extension 'colcon_meta'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extensions ['ros']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description_ros2) by extension 'ros'
+[0.849s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrbot_description_ros2' with type 'ros.ament_cmake' and name 'rrbot_description_ros2'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.850s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.882s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/expert_amateur/voidwalking/arduino_ws/microros_ws/install
+[0.883s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/expert_amateur/voidwalking/ros2_ws/install
+[0.885s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 416 installed packages in /opt/ros/humble
+[0.887s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'addvectors_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.965s] DEBUG:colcon.colcon_core.verb:Building package 'addvectors_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/addvectors_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/addvectors_srvcli', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/addvectors_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.966s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/cpp_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/cpp_parameters', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/cpp_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.968s] DEBUG:colcon.colcon_core.verb:Building package 'more_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/more_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/more_interfaces', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/more_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.969s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/polygon_base', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'cmake_target' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'rrbot_description_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/rrbot_description_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.971s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.972s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.973s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/cpp_srvcli', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.975s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/expert_amateur/vbm_ws/build/polygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/expert_amateur/vbm_ws/install/polygon_plugins', 'merge_install': False, 'path': '/home/expert_amateur/vbm_ws/src/polygon_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.975s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.979s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.979s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/tutorial_interfaces'
+[0.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.986s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.986s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.993s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/polygon_base' with build type 'ament_cmake'
+[0.993s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/polygon_base'
+[0.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.000s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/addvectors_srvcli' with build type 'ament_cmake'
+[1.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/addvectors_srvcli'
+[1.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/cpp_parameters' with build type 'ament_cmake'
+[1.007s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/cpp_parameters'
+[1.009s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.015s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/more_interfaces' with build type 'ament_cmake'
+[1.015s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/more_interfaces'
+[1.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.022s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/rrbot_description_ros2' with build type 'ament_cmake'
+[1.022s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/rrbot_description_ros2'
+[1.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/tutorial_interfaces -- -j12 -l12
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/polygon_base -- -j12 -l12
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/addvectors_srvcli -- -j12 -l12
+[1.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_parameters -- -j12 -l12
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/more_interfaces -- -j12 -l12
+[1.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake /home/expert_amateur/vbm_ws/src/rrbot_description_ros2 -DCMAKE_INSTALL_PREFIX=/home/expert_amateur/vbm_ws/install/rrbot_description_ros2
+[1.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/polygon_base -- -j12 -l12
+[1.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_parameters -- -j12 -l12
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/polygon_base
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_parameters
+[1.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[1.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_parameters
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters' for CMake module files
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters' for CMake config files
+[1.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/lib'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/bin'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/lib/python3.10/site-packages'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/bin'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[1.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[1.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base' for CMake module files
+[1.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/polygon_base
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base' for CMake config files
+[1.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/lib'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/bin'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/lib/python3.10/site-packages'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/bin'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.sh'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.bash'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.zsh'
+[1.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters' for CMake module files
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters' for CMake config files
+[1.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/lib'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/bin'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/lib/python3.10/site-packages'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_parameters/bin'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[1.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[1.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base' for CMake module files
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base' for CMake config files
+[1.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/lib'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/bin'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/lib/python3.10/site-packages'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_base/bin'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.sh'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.bash'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_base/share/polygon_base/package.zsh'
+[1.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.371s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/polygon_plugins' with build type 'ament_cmake'
+[1.371s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/polygon_plugins'
+[1.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/polygon_base:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/polygon_plugins -- -j12 -l12
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/polygon_base:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/polygon_plugins -- -j12 -l12
+[1.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/polygon_base:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/polygon_plugins
+[1.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins' for CMake module files
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/polygon_base:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/polygon_plugins
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins' for CMake config files
+[1.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/lib'
+[1.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/bin'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/lib/python3.10/site-packages'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/bin'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.sh'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.bash'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[1.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[1.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins' for CMake module files
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins' for CMake config files
+[1.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/lib'
+[1.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/bin'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/lib/python3.10/site-packages'
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/polygon_plugins/bin'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.sh'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.bash'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[1.537s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/more_interfaces -- -j12 -l12
+[1.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/addvectors_srvcli -- -j12 -l12
+[1.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/tutorial_interfaces -- -j12 -l12
+[1.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/more_interfaces
+[1.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/addvectors_srvcli
+[1.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces' for CMake module files
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/more_interfaces
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces' for CMake config files
+[1.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/lib'
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/bin'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/lib/python3.10/site-packages'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/bin'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.dsv'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.sh'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.bash'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.zsh'
+[1.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/tutorial_interfaces
+[1.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(addvectors_srvcli)
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli' for CMake module files
+[1.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/addvectors_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/addvectors_srvcli
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli' for CMake config files
+[1.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('addvectors_srvcli', 'cmake_prefix_path')
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/cmake_prefix_path.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/cmake_prefix_path.dsv'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/cmake_prefix_path.sh'
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib'
+[1.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('addvectors_srvcli', 'ld_library_path_lib')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/ld_library_path_lib.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/ld_library_path_lib.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/ld_library_path_lib.sh'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/pkgconfig/addvectors_srvcli.pc'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/python3.10/site-packages'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/bin'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.ps1'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.dsv'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.sh'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.bash'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.zsh'
+[1.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/colcon-core/packages/addvectors_srvcli)
+[1.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces' for CMake module files
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces' for CMake config files
+[1.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/lib'
+[1.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/bin'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/lib/python3.10/site-packages'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/more_interfaces/bin'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.dsv'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.sh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.bash'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.zsh'
+[1.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[1.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces' for CMake module files
+[1.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/tutorial_interfaces
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces' for CMake config files
+[1.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[1.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib'
+[1.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/bin'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/bin'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[1.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[1.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(addvectors_srvcli)
+[1.901s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli' for CMake module files
+[1.901s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli' for CMake config files
+[1.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('addvectors_srvcli', 'cmake_prefix_path')
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/cmake_prefix_path.ps1'
+[1.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/cmake_prefix_path.dsv'
+[1.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/cmake_prefix_path.sh'
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib'
+[1.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('addvectors_srvcli', 'ld_library_path_lib')
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/ld_library_path_lib.ps1'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/ld_library_path_lib.dsv'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/hook/ld_library_path_lib.sh'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/bin'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/pkgconfig/addvectors_srvcli.pc'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib/python3.10/site-packages'
+[1.909s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/bin'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.ps1'
+[1.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.dsv'
+[1.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.sh'
+[1.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.bash'
+[1.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/addvectors_srvcli/package.zsh'
+[1.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/addvectors_srvcli/share/colcon-core/packages/addvectors_srvcli)
+[1.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces' for CMake module files
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces' for CMake config files
+[1.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[1.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[1.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib'
+[1.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/bin'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/bin'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.980s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[1.980s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/cpp_pubsub'
+[1.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.988s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/expert_amateur/vbm_ws/src/cpp_srvcli' with build type 'ament_cmake'
+[1.988s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/expert_amateur/vbm_ws/src/cpp_srvcli'
+[1.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_srvcli -- -j12 -l12
+[2.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_pubsub -- -j12 -l12
+[2.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/cpp_srvcli -- -j12 -l12
+[2.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_pubsub
+[2.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_srvcli
+[2.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub' for CMake module files
+[2.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_pubsub
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub' for CMake config files
+[2.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[2.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/bin'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/bin'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[2.122s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[2.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli' for CMake module files
+[2.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble LD_LIBRARY_PATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/cpp_srvcli
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli' for CMake config files
+[2.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[2.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[2.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/lib'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/bin'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/lib/python3.10/site-packages'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/bin'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[2.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[2.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub' for CMake module files
+[2.151s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub' for CMake config files
+[2.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[2.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/bin'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_pubsub/bin'
+[2.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[2.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[2.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[2.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[2.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[2.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[2.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli' for CMake module files
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli' for CMake config files
+[2.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[2.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[2.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[2.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/lib'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/bin'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/lib/python3.10/site-packages'
+[2.166s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/cpp_srvcli/bin'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[2.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[3.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake /home/expert_amateur/vbm_ws/src/rrbot_description_ros2 -DCMAKE_INSTALL_PREFIX=/home/expert_amateur/vbm_ws/install/rrbot_description_ros2
+[3.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/rrbot_description_ros2 -- -j12 -l12
+[3.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/rrbot_description_ros2 -- -j12 -l12
+[3.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/rrbot_description_ros2
+[3.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description_ros2)
+[3.776s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2' for CMake module files
+[3.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/rrbot_description_ros2
+[3.777s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2' for CMake config files
+[3.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description_ros2', 'cmake_prefix_path')
+[3.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/hook/cmake_prefix_path.ps1'
+[3.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/hook/cmake_prefix_path.dsv'
+[3.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/hook/cmake_prefix_path.sh'
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/lib'
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/bin'
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/lib/pkgconfig/rrbot_description_ros2.pc'
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/lib/python3.10/site-packages'
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/bin'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.ps1'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.dsv'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.sh'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.bash'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.zsh'
+[3.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/colcon-core/packages/rrbot_description_ros2)
+[3.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description_ros2)
+[3.808s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2' for CMake module files
+[3.808s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2' for CMake config files
+[3.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description_ros2', 'cmake_prefix_path')
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/hook/cmake_prefix_path.ps1'
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/hook/cmake_prefix_path.dsv'
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/hook/cmake_prefix_path.sh'
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/lib'
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/bin'
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/lib/pkgconfig/rrbot_description_ros2.pc'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/lib/python3.10/site-packages'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/bin'
+[3.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.ps1'
+[3.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.dsv'
+[3.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.sh'
+[3.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.bash'
+[3.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.zsh'
+[3.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/colcon-core/packages/rrbot_description_ros2)
+[3.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.816s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.823s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.844s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/expert_amateur/vbm_ws/install/local_setup.ps1'
+[3.847s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/expert_amateur/vbm_ws/install/_local_setup_util_ps1.py'
+[3.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/expert_amateur/vbm_ws/install/setup.ps1'
+[3.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/expert_amateur/vbm_ws/install/local_setup.sh'
+[3.851s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/expert_amateur/vbm_ws/install/_local_setup_util_sh.py'
+[3.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/expert_amateur/vbm_ws/install/setup.sh'
+[3.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/expert_amateur/vbm_ws/install/local_setup.bash'
+[3.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/expert_amateur/vbm_ws/install/setup.bash'
+[3.856s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/expert_amateur/vbm_ws/install/local_setup.zsh'
+[3.856s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/expert_amateur/vbm_ws/install/setup.zsh'

@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.000529] (-) JobUnselected: {'identifier': 'addvectors_srvcli'}
+[0.000586] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001684] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.003851] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.004742] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.004991] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.005453] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.005687] (-) JobUnselected: {'identifier': 'rrbot_description'}
+[0.005974] (-) JobUnselected: {'identifier': 'rrbot_description_ros2'}
+[0.006094] (-) JobUnselected: {'identifier': 'rrbot_gazebo'}
+[0.006279] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.006338] (-) JobUnselected: {'identifier': 'vbm_project_env'}
+[0.006382] (opencv_test) JobQueued: {'identifier': 'opencv_test', 'dependencies': OrderedDict()}
+[0.006479] (opencv_test) JobStarted: {'identifier': 'opencv_test'}
+[0.099808] (-) TimerEvent: {}
+[0.201668] (-) TimerEvent: {}
+[0.306302] (-) TimerEvent: {}
+[0.384866] (opencv_test) JobProgress: {'identifier': 'opencv_test', 'progress': 'cmake'}
+[0.386936] (opencv_test) JobProgress: {'identifier': 'opencv_test', 'progress': 'build'}
+[0.387941] (opencv_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/expert_amateur/vbm_ws/build/opencv_test', '--', '-j12', '-l12'], 'cwd': '/home/expert_amateur/vbm_ws/build/opencv_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'expert_amateur'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:/home/expert_amateur/vbm_ws/install/polygon_plugins/lib:/home/expert_amateur/vbm_ws/install/more_interfaces/lib:/home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/lib:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite/lib:/home/expert_amateur/voidwalking/ros2_ws/install/mapping/lib:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent/lib:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/expert_amateur'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5735'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install:/home/expert_amateur/voidwalking/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'expert_amateur'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'expert_amateur'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/expert_amateur/vbm_ws/install/rrbot_description/share:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/expert_amateur/.cargo/bin:/home/expert_amateur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OMEN-Laptop-15-ek0021tx:@/tmp/.ICE-unix/1950,unix/OMEN-Laptop-15-ek0021tx:/tmp/.ICE-unix/1950'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/86f9c356_2dd9_4b03_9dae_4a6ea9c4c3bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1K9B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install/vbm_project_env:/home/expert_amateur/vbm_ws/install/cpp_srvcli:/home/expert_amateur/vbm_ws/install/cpp_pubsub:/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/vbm_ws/install/rrbot_gazebo:/home/expert_amateur/vbm_ws/install/rrbot_description_ros2:/home/expert_amateur/vbm_ws/install/rrbot_description:/home/expert_amateur/vbm_ws/install/polygon_plugins:/home/expert_amateur/vbm_ws/install/polygon_base:/home/expert_amateur/vbm_ws/install/opencv_test:/home/expert_amateur/vbm_ws/install/more_interfaces:/home/expert_amateur/vbm_ws/install/cpp_parameters:/home/expert_amateur/vbm_ws/install/addvectors_srvcli:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/expert_amateur/vbm_ws/build/opencv_test'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints/lib/python3.10/site-packages:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/local/lib/python3.10/dist-packages:/home/expert_amateur/voidwalking/ros2_ws/install/mapping/local/lib/python3.10/dist-packages:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install/vbm_project_env:/home/expert_amateur/vbm_ws/install/cpp_srvcli:/home/expert_amateur/vbm_ws/install/cpp_pubsub:/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/vbm_ws/install/rrbot_gazebo:/home/expert_amateur/vbm_ws/install/rrbot_description_ros2:/home/expert_amateur/vbm_ws/install/rrbot_description:/home/expert_amateur/vbm_ws/install/polygon_plugins:/home/expert_amateur/vbm_ws/install/polygon_base:/home/expert_amateur/vbm_ws/install/opencv_test:/home/expert_amateur/vbm_ws/install/more_interfaces:/home/expert_amateur/vbm_ws/install/cpp_parameters:/home/expert_amateur/vbm_ws/install/addvectors_srvcli:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble')]), 'shell': False}
+[0.406339] (-) TimerEvent: {}
+[0.504214] (opencv_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target opencv_test_2\x1b[0m\n'}
+[0.506475] (-) TimerEvent: {}
+[0.538416] (opencv_test) StdoutLine: {'line': b'[ 50%] Built target opencv_test_1\n'}
+[0.565350] (opencv_test) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/opencv_test_2.dir/src/test2.cpp.o\x1b[0m\n'}
+[0.606688] (-) TimerEvent: {}
+[0.707162] (-) TimerEvent: {}
+[0.807503] (-) TimerEvent: {}
+[0.908135] (-) TimerEvent: {}
+[1.009059] (-) TimerEvent: {}
+[1.109797] (-) TimerEvent: {}
+[1.210936] (-) TimerEvent: {}
+[1.312810] (-) TimerEvent: {}
+[1.413105] (-) TimerEvent: {}
+[1.513409] (-) TimerEvent: {}
+[1.614005] (-) TimerEvent: {}
+[1.715081] (-) TimerEvent: {}
+[1.815644] (-) TimerEvent: {}
+[1.916261] (-) TimerEvent: {}
+[2.017201] (-) TimerEvent: {}
+[2.117624] (-) TimerEvent: {}
+[2.218348] (-) TimerEvent: {}
+[2.320070] (-) TimerEvent: {}
+[2.420482] (-) TimerEvent: {}
+[2.520839] (-) TimerEvent: {}
+[2.621540] (-) TimerEvent: {}
+[2.722177] (-) TimerEvent: {}
+[2.822502] (-) TimerEvent: {}
+[2.923154] (-) TimerEvent: {}
+[3.024699] (-) TimerEvent: {}
+[3.125095] (-) TimerEvent: {}
+[3.225383] (-) TimerEvent: {}
+[3.325966] (-) TimerEvent: {}
+[3.427790] (-) TimerEvent: {}
+[3.528100] (-) TimerEvent: {}
+[3.628860] (-) TimerEvent: {}
+[3.731103] (-) TimerEvent: {}
+[3.831443] (-) TimerEvent: {}
+[3.932164] (-) TimerEvent: {}
+[4.033816] (-) TimerEvent: {}
+[4.134306] (-) TimerEvent: {}
+[4.234855] (-) TimerEvent: {}
+[4.336805] (-) TimerEvent: {}
+[4.437119] (-) TimerEvent: {}
+[4.537430] (-) TimerEvent: {}
+[4.638850] (-) TimerEvent: {}
+[4.740120] (-) TimerEvent: {}
+[4.840617] (-) TimerEvent: {}
+[4.941615] (-) TimerEvent: {}
+[5.042934] (-) TimerEvent: {}
+[5.143691] (-) TimerEvent: {}
+[5.244600] (-) TimerEvent: {}
+[5.346327] (-) TimerEvent: {}
+[5.447378] (-) TimerEvent: {}
+[5.548482] (-) TimerEvent: {}
+[5.650428] (-) TimerEvent: {}
+[5.751100] (-) TimerEvent: {}
+[5.852375] (-) TimerEvent: {}
+[5.954380] (-) TimerEvent: {}
+[6.054884] (-) TimerEvent: {}
+[6.155610] (-) TimerEvent: {}
+[6.257141] (-) TimerEvent: {}
+[6.357532] (-) TimerEvent: {}
+[6.458109] (-) TimerEvent: {}
+[6.559092] (-) TimerEvent: {}
+[6.659942] (-) TimerEvent: {}
+[6.760739] (-) TimerEvent: {}
+[6.861662] (-) TimerEvent: {}
+[6.962628] (-) TimerEvent: {}
+[7.063159] (-) TimerEvent: {}
+[7.163570] (-) TimerEvent: {}
+[7.264061] (-) TimerEvent: {}
+[7.364663] (-) TimerEvent: {}
+[7.465185] (-) TimerEvent: {}
+[7.565966] (-) TimerEvent: {}
+[7.668429] (-) TimerEvent: {}
+[7.770061] (-) TimerEvent: {}
+[7.872144] (-) TimerEvent: {}
+[7.973962] (-) TimerEvent: {}
+[8.074323] (-) TimerEvent: {}
+[8.175537] (-) TimerEvent: {}
+[8.277221] (-) TimerEvent: {}
+[8.378589] (-) TimerEvent: {}
+[8.481573] (-) TimerEvent: {}
+[8.583574] (-) TimerEvent: {}
+[8.684603] (-) TimerEvent: {}
+[8.786290] (-) TimerEvent: {}
+[8.887690] (-) TimerEvent: {}
+[8.989088] (-) TimerEvent: {}
+[9.090070] (-) TimerEvent: {}
+[9.191471] (-) TimerEvent: {}
+[9.292550] (-) TimerEvent: {}
+[9.393974] (-) TimerEvent: {}
+[9.495022] (-) TimerEvent: {}
+[9.595801] (-) TimerEvent: {}
+[9.697061] (-) TimerEvent: {}
+[9.797460] (-) TimerEvent: {}
+[9.897800] (-) TimerEvent: {}
+[9.998219] (-) TimerEvent: {}
+[10.098822] (-) TimerEvent: {}
+[10.199529] (-) TimerEvent: {}
+[10.300369] (-) TimerEvent: {}
+[10.402088] (-) TimerEvent: {}
+[10.504249] (-) TimerEvent: {}
+[10.605236] (-) TimerEvent: {}
+[10.706731] (-) TimerEvent: {}
+[10.807341] (-) TimerEvent: {}
+[10.907940] (-) TimerEvent: {}
+[11.009174] (-) TimerEvent: {}
+[11.110104] (-) TimerEvent: {}
+[11.210618] (-) TimerEvent: {}
+[11.311329] (-) TimerEvent: {}
+[11.412500] (-) TimerEvent: {}
+[11.513167] (-) TimerEvent: {}
+[11.613767] (-) TimerEvent: {}
+[11.714630] (-) TimerEvent: {}
+[11.815723] (-) TimerEvent: {}
+[11.916881] (-) TimerEvent: {}
+[12.018058] (-) TimerEvent: {}
+[12.118616] (-) TimerEvent: {}
+[12.219182] (-) TimerEvent: {}
+[12.320479] (-) TimerEvent: {}
+[12.420862] (-) TimerEvent: {}
+[12.521240] (-) TimerEvent: {}
+[12.621943] (-) TimerEvent: {}
+[12.723156] (-) TimerEvent: {}
+[12.823881] (-) TimerEvent: {}
+[12.925628] (-) TimerEvent: {}
+[13.026464] (-) TimerEvent: {}
+[13.127691] (-) TimerEvent: {}
+[13.228435] (-) TimerEvent: {}
+[13.329219] (-) TimerEvent: {}
+[13.429551] (-) TimerEvent: {}
+[13.530097] (-) TimerEvent: {}
+[13.630728] (-) TimerEvent: {}
+[13.731192] (-) TimerEvent: {}
+[13.832611] (-) TimerEvent: {}
+[13.933511] (-) TimerEvent: {}
+[14.034221] (-) TimerEvent: {}
+[14.135493] (-) TimerEvent: {}
+[14.236047] (-) TimerEvent: {}
+[14.337107] (-) TimerEvent: {}
+[14.438414] (-) TimerEvent: {}
+[14.539161] (-) TimerEvent: {}
+[14.639831] (-) TimerEvent: {}
+[14.740415] (-) TimerEvent: {}
+[14.841382] (-) TimerEvent: {}
+[14.942027] (-) TimerEvent: {}
+[15.042756] (-) TimerEvent: {}
+[15.143790] (-) TimerEvent: {}
+[15.244256] (-) TimerEvent: {}
+[15.344823] (-) TimerEvent: {}
+[15.445604] (-) TimerEvent: {}
+[15.546801] (-) TimerEvent: {}
+[15.647110] (-) TimerEvent: {}
+[15.747708] (-) TimerEvent: {}
+[15.848963] (-) TimerEvent: {}
+[15.949336] (-) TimerEvent: {}
+[16.049877] (-) TimerEvent: {}
+[16.150904] (-) TimerEvent: {}
+[16.251197] (-) TimerEvent: {}
+[16.351512] (-) TimerEvent: {}
+[16.452016] (-) TimerEvent: {}
+[16.553213] (-) TimerEvent: {}
+[16.653603] (-) TimerEvent: {}
+[16.754164] (-) TimerEvent: {}
+[16.855665] (-) TimerEvent: {}
+[16.956349] (-) TimerEvent: {}
+[17.056937] (-) TimerEvent: {}
+[17.158777] (-) TimerEvent: {}
+[17.259825] (-) TimerEvent: {}
+[17.361054] (-) TimerEvent: {}
+[17.461822] (-) TimerEvent: {}
+[17.563522] (-) TimerEvent: {}
+[17.664228] (-) TimerEvent: {}
+[17.765524] (-) TimerEvent: {}
+[17.867049] (-) TimerEvent: {}
+[17.968459] (-) TimerEvent: {}
+[18.068879] (-) TimerEvent: {}
+[18.169910] (-) TimerEvent: {}
+[18.271679] (-) TimerEvent: {}
+[18.372134] (-) TimerEvent: {}
+[18.472722] (-) TimerEvent: {}
+[18.574508] (-) TimerEvent: {}
+[18.675046] (-) TimerEvent: {}
+[18.776095] (-) TimerEvent: {}
+[18.877549] (-) TimerEvent: {}
+[18.978319] (-) TimerEvent: {}
+[19.080341] (-) TimerEvent: {}
+[19.181734] (-) TimerEvent: {}
+[19.282449] (-) TimerEvent: {}
+[19.384234] (-) TimerEvent: {}
+[19.485048] (-) TimerEvent: {}
+[19.585648] (-) TimerEvent: {}
+[19.687607] (-) TimerEvent: {}
+[19.788292] (-) TimerEvent: {}
+[19.889158] (-) TimerEvent: {}
+[19.990806] (-) TimerEvent: {}
+[20.091230] (-) TimerEvent: {}
+[20.191683] (-) TimerEvent: {}
+[20.292381] (-) TimerEvent: {}
+[20.394132] (-) TimerEvent: {}
+[20.495266] (-) TimerEvent: {}
+[20.595799] (-) TimerEvent: {}
+[20.697453] (-) TimerEvent: {}
+[20.798105] (-) TimerEvent: {}
+[20.898724] (-) TimerEvent: {}
+[20.999079] (-) TimerEvent: {}
+[21.099784] (-) TimerEvent: {}
+[21.200770] (-) TimerEvent: {}
+[21.301098] (-) TimerEvent: {}
+[21.401385] (-) TimerEvent: {}
+[21.501737] (-) TimerEvent: {}
+[21.602176] (-) TimerEvent: {}
+[21.702516] (-) TimerEvent: {}
+[21.803177] (-) TimerEvent: {}
+[21.904647] (-) TimerEvent: {}
+[22.004970] (-) TimerEvent: {}
+[22.105413] (-) TimerEvent: {}
+[22.206946] (-) TimerEvent: {}
+[22.307549] (-) TimerEvent: {}
+[22.408039] (-) TimerEvent: {}
+[22.508524] (-) TimerEvent: {}
+[22.609287] (-) TimerEvent: {}
+[22.709631] (-) TimerEvent: {}
+[22.810317] (-) TimerEvent: {}
+[22.912237] (-) TimerEvent: {}
+[23.012902] (-) TimerEvent: {}
+[23.113901] (-) TimerEvent: {}
+[23.215769] (-) TimerEvent: {}
+[23.316262] (-) TimerEvent: {}
+[23.416576] (-) TimerEvent: {}
+[23.517076] (-) TimerEvent: {}
+[23.617629] (-) TimerEvent: {}
+[23.717948] (-) TimerEvent: {}
+[23.818255] (-) TimerEvent: {}
+[23.862589] (opencv_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable opencv_test_2\x1b[0m\n'}
+[23.918809] (-) TimerEvent: {}
+[24.020820] (-) TimerEvent: {}
+[24.121669] (-) TimerEvent: {}
+[24.222649] (-) TimerEvent: {}
+[24.323766] (-) TimerEvent: {}
+[24.425326] (-) TimerEvent: {}
+[24.527985] (-) TimerEvent: {}
+[24.629532] (-) TimerEvent: {}
+[24.730357] (-) TimerEvent: {}
+[24.831236] (-) TimerEvent: {}
+[24.932511] (-) TimerEvent: {}
+[25.033266] (-) TimerEvent: {}
+[25.134684] (-) TimerEvent: {}
+[25.236026] (-) TimerEvent: {}
+[25.338076] (-) TimerEvent: {}
+[25.438524] (-) TimerEvent: {}
+[25.538859] (-) TimerEvent: {}
+[25.639377] (-) TimerEvent: {}
+[25.742797] (-) TimerEvent: {}
+[25.843699] (-) TimerEvent: {}
+[25.944042] (-) TimerEvent: {}
+[26.044965] (-) TimerEvent: {}
+[26.146067] (-) TimerEvent: {}
+[26.216110] (opencv_test) StdoutLine: {'line': b'[100%] Built target opencv_test_2\n'}
+[26.246177] (-) TimerEvent: {}
+[26.255031] (opencv_test) CommandEnded: {'returncode': 0}
+[26.340925] (opencv_test) JobProgress: {'identifier': 'opencv_test', 'progress': 'install'}
+[26.346692] (-) TimerEvent: {}
+[26.364416] (opencv_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/expert_amateur/vbm_ws/build/opencv_test'], 'cwd': '/home/expert_amateur/vbm_ws/build/opencv_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'expert_amateur'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/lib:/home/expert_amateur/vbm_ws/install/polygon_plugins/lib:/home/expert_amateur/vbm_ws/install/more_interfaces/lib:/home/expert_amateur/vbm_ws/install/addvectors_srvcli/lib:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/lib:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite/lib:/home/expert_amateur/voidwalking/ros2_ws/install/mapping/lib:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent/lib:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/expert_amateur'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5735'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install:/home/expert_amateur/voidwalking/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'expert_amateur'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'expert_amateur'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/expert_amateur/vbm_ws/install/rrbot_description/share:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/expert_amateur/.cargo/bin:/home/expert_amateur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OMEN-Laptop-15-ek0021tx:@/tmp/.ICE-unix/1950,unix/OMEN-Laptop-15-ek0021tx:/tmp/.ICE-unix/1950'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/86f9c356_2dd9_4b03_9dae_4a6ea9c4c3bc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1K9B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install/vbm_project_env:/home/expert_amateur/vbm_ws/install/cpp_srvcli:/home/expert_amateur/vbm_ws/install/cpp_pubsub:/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/vbm_ws/install/rrbot_gazebo:/home/expert_amateur/vbm_ws/install/rrbot_description_ros2:/home/expert_amateur/vbm_ws/install/rrbot_description:/home/expert_amateur/vbm_ws/install/polygon_plugins:/home/expert_amateur/vbm_ws/install/polygon_base:/home/expert_amateur/vbm_ws/install/opencv_test:/home/expert_amateur/vbm_ws/install/more_interfaces:/home/expert_amateur/vbm_ws/install/cpp_parameters:/home/expert_amateur/vbm_ws/install/addvectors_srvcli:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/expert_amateur/vbm_ws/build/opencv_test'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/expert_amateur/vbm_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/expert_amateur/vbm_ws/install/addvectors_srvcli/local/lib/python3.10/dist-packages:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints/lib/python3.10/site-packages:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/local/lib/python3.10/dist-packages:/home/expert_amateur/voidwalking/ros2_ws/install/mapping/local/lib/python3.10/dist-packages:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/expert_amateur/vbm_ws/install/vbm_project_env:/home/expert_amateur/vbm_ws/install/cpp_srvcli:/home/expert_amateur/vbm_ws/install/cpp_pubsub:/home/expert_amateur/vbm_ws/install/tutorial_interfaces:/home/expert_amateur/vbm_ws/install/rrbot_gazebo:/home/expert_amateur/vbm_ws/install/rrbot_description_ros2:/home/expert_amateur/vbm_ws/install/rrbot_description:/home/expert_amateur/vbm_ws/install/polygon_plugins:/home/expert_amateur/vbm_ws/install/polygon_base:/home/expert_amateur/vbm_ws/install/opencv_test:/home/expert_amateur/vbm_ws/install/more_interfaces:/home/expert_amateur/vbm_ws/install/cpp_parameters:/home/expert_amateur/vbm_ws/install/addvectors_srvcli:/home/expert_amateur/voidwalking/ros2_ws/install/void_tests:/home/expert_amateur/voidwalking/ros2_ws/install/turtlebot_test:/home/expert_amateur/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer:/home/expert_amateur/voidwalking/ros2_ws/install/main:/home/expert_amateur/voidwalking/ros2_ws/install/simulation:/home/expert_amateur/voidwalking/ros2_ws/install/rviz_satellite:/home/expert_amateur/voidwalking/ros2_ws/install/obstacle_avoidance:/home/expert_amateur/voidwalking/ros2_ws/install/nav2_turtlebot3:/home/expert_amateur/voidwalking/ros2_ws/install/mapping:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_setup:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent:/home/expert_amateur/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble')]), 'shell': False}
+[26.390252] (opencv_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.390736] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_1\n'}
+[26.392268] (opencv_test) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_2\n'}
+[26.411397] (opencv_test) StdoutLine: {'line': b'-- Set runtime path of "/home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_2" to ""\n'}
+[26.413104] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/package_run_dependencies/opencv_test\n'}
+[26.416916] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/parent_prefix_path/opencv_test\n'}
+[26.418484] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/ament_prefix_path.sh\n'}
+[26.419412] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/ament_prefix_path.dsv\n'}
+[26.420473] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/path.sh\n'}
+[26.421091] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/path.dsv\n'}
+[26.421339] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.bash\n'}
+[26.421504] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.sh\n'}
+[26.421887] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.zsh\n'}
+[26.422114] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.dsv\n'}
+[26.422266] (opencv_test) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/package.dsv\n'}
+[26.422404] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/packages/opencv_test\n'}
+[26.422556] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/cmake/opencv_testConfig.cmake\n'}
+[26.422706] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/cmake/opencv_testConfig-version.cmake\n'}
+[26.422838] (opencv_test) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/package.xml\n'}
+[26.425093] (opencv_test) CommandEnded: {'returncode': 0}
+[26.446824] (-) TimerEvent: {}
+[26.549737] (-) TimerEvent: {}
+[26.650622] (-) TimerEvent: {}
+[26.751677] (-) TimerEvent: {}
+[26.852692] (-) TimerEvent: {}
+[26.955834] (-) TimerEvent: {}
+[26.984006] (opencv_test) JobEnded: {'identifier': 'opencv_test', 'rc': 0}
+[26.988758] (-) EventReactorShutdown: {}

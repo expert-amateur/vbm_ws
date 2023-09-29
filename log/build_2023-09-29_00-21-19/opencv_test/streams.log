@@ -1,0 +1,76 @@
+[0.375s] Invoking command in '/home/expert_amateur/vbm_ws/build/opencv_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake /home/expert_amateur/vbm_ws/src/opencv_test -DCMAKE_INSTALL_PREFIX=/home/expert_amateur/vbm_ws/install/opencv_test
+[0.513s] -- The C compiler identification is GNU 11.4.0
+[0.620s] -- The CXX compiler identification is GNU 11.4.0
+[0.634s] -- Detecting C compiler ABI info
+[0.713s] -- Detecting C compiler ABI info - done
+[0.720s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.720s] -- Detecting C compile features
+[0.721s] -- Detecting C compile features - done
+[0.724s] -- Detecting CXX compiler ABI info
+[0.795s] -- Detecting CXX compiler ABI info - done
+[0.802s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.802s] -- Detecting CXX compile features
+[0.803s] -- Detecting CXX compile features - done
+[0.816s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.002s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.120s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.197s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.206s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.220s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.382s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.387s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.501s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.531s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.580s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.607s] -- Looking for pthread.h
+[1.672s] -- Looking for pthread.h - found
+[1.672s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.736s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.737s] -- Found Threads: TRUE  
+[1.921s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.062s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[2.125s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.147s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.257s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.258s] -- Configured cppcheck include dirs: 
+[2.258s] -- Configured cppcheck exclude dirs and/or files: 
+[2.258s] -- Added test 'lint_cmake' to check CMake code style
+[2.260s] -- Added test 'uncrustify' to check C / C++ code style
+[2.260s] -- Configured uncrustify additional arguments: 
+[2.261s] -- Added test 'xmllint' to check XML markup files
+[2.263s] -- Configuring done
+[2.274s] -- Generating done
+[2.276s] -- Build files have been written to: /home/expert_amateur/vbm_ws/build/opencv_test
+[2.579s] Invoked command in '/home/expert_amateur/vbm_ws/build/opencv_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake /home/expert_amateur/vbm_ws/src/opencv_test -DCMAKE_INSTALL_PREFIX=/home/expert_amateur/vbm_ws/install/opencv_test
+[2.582s] Invoking command in '/home/expert_amateur/vbm_ws/build/opencv_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/opencv_test -- -j12 -l12
+[2.625s] [ 25%] [32mBuilding CXX object CMakeFiles/opencv_test_2.dir/src/test2.cpp.o[0m
+[2.625s] [ 50%] [32mBuilding CXX object CMakeFiles/opencv_test_1.dir/src/test1.cpp.o[0m
+[11.634s] [ 75%] [32m[1mLinking CXX executable opencv_test_1[0m
+[11.646s] [100%] [32m[1mLinking CXX executable opencv_test_2[0m
+[12.283s] [100%] Built target opencv_test_1
+[12.283s] [100%] Built target opencv_test_2
+[12.294s] Invoked command in '/home/expert_amateur/vbm_ws/build/opencv_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/opencv_test -- -j12 -l12
+[12.322s] Invoking command in '/home/expert_amateur/vbm_ws/build/opencv_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/opencv_test
+[12.329s] -- Install configuration: ""
+[12.329s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_1
+[12.332s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_1" to ""
+[12.332s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_2
+[12.335s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_2" to ""
+[12.335s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/package_run_dependencies/opencv_test
+[12.335s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/parent_prefix_path/opencv_test
+[12.335s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/ament_prefix_path.sh
+[12.335s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/ament_prefix_path.dsv
+[12.336s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/path.sh
+[12.336s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/path.dsv
+[12.336s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.bash
+[12.336s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.sh
+[12.336s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.zsh
+[12.336s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.dsv
+[12.337s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/package.dsv
+[12.337s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/packages/opencv_test
+[12.337s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/cmake/opencv_testConfig.cmake
+[12.337s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/cmake/opencv_testConfig-version.cmake
+[12.338s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/package.xml
+[12.339s] Invoked command in '/home/expert_amateur/vbm_ws/build/opencv_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/opencv_test

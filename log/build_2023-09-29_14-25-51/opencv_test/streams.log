@@ -1,0 +1,29 @@
+[0.856s] Invoking command in '/home/expert_amateur/vbm_ws/build/opencv_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/opencv_test -- -j12 -l12
+[1.023s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_1[0m
+[1.041s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_2[0m
+[1.121s] [ 50%] Built target opencv_test_1
+[1.147s] [ 75%] [32mBuilding CXX object CMakeFiles/opencv_test_2.dir/src/test2.cpp.o[0m
+[27.913s] [100%] [32m[1mLinking CXX executable opencv_test_2[0m
+[30.334s] [100%] Built target opencv_test_2
+[30.369s] Invoked command in '/home/expert_amateur/vbm_ws/build/opencv_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/opencv_test -- -j12 -l12
+[30.451s] Invoking command in '/home/expert_amateur/vbm_ws/build/opencv_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/opencv_test
+[30.475s] -- Install configuration: ""
+[30.476s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_1
+[30.476s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_2
+[30.482s] -- Set runtime path of "/home/expert_amateur/vbm_ws/install/opencv_test/lib/opencv_test/opencv_test_2" to ""
+[30.484s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/package_run_dependencies/opencv_test
+[30.486s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/parent_prefix_path/opencv_test
+[30.486s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/ament_prefix_path.sh
+[30.486s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/ament_prefix_path.dsv
+[30.486s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/path.sh
+[30.486s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/environment/path.dsv
+[30.487s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.bash
+[30.487s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.sh
+[30.487s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.zsh
+[30.487s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/local_setup.dsv
+[30.487s] -- Installing: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/package.dsv
+[30.487s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/ament_index/resource_index/packages/opencv_test
+[30.487s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/cmake/opencv_testConfig.cmake
+[30.487s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/cmake/opencv_testConfig-version.cmake
+[30.487s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/opencv_test/share/opencv_test/package.xml
+[30.494s] Invoked command in '/home/expert_amateur/vbm_ws/build/opencv_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/opencv_test

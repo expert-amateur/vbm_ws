@@ -1,0 +1,145 @@
+[0.314s] Invoking command in '/home/expert_amateur/vbm_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/more_interfaces -- -j12 -l12
+[0.394s] [  3%] Built target more_interfaces__cpp
+[0.406s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.417s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[0.456s] [ 33%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.457s] [ 33%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.457s] [ 39%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.469s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.475s] [ 57%] Built target more_interfaces__rosidl_typesupport_c
+[0.479s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.508s] [35m[1mConsolidate compiler generated dependencies of target publish_address_book[0m
+[0.518s] [ 66%] Built target more_interfaces
+[0.524s] [ 72%] Built target publish_address_book
+[0.545s] [ 75%] Built target more_interfaces__py
+[0.574s] [ 81%] Built target more_interfaces__rosidl_generator_py
+[0.612s] [ 87%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.614s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.618s] [100%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.900s] running egg_info
+[0.901s] writing more_interfaces.egg-info/PKG-INFO
+[0.901s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.901s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.904s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.905s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.933s] [100%] Built target ament_cmake_python_build_more_interfaces_egg
+[1.273s] Invoked command in '/home/expert_amateur/vbm_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/more_interfaces -- -j12 -l12
+[1.484s] Invoking command in '/home/expert_amateur/vbm_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/more_interfaces
+[1.494s] -- Install configuration: ""
+[1.494s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[1.495s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.495s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.495s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.497s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[1.497s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[1.497s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[1.498s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[1.498s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.498s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[1.498s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[1.498s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[1.499s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[1.499s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.499s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.500s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.500s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.500s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[1.502s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.502s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.502s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.502s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.503s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[1.504s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[1.505s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.506s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.506s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.506s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.507s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.507s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[1.507s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[1.507s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[1.507s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[1.507s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.508s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.508s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.508s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[1.508s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[1.509s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.510s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[1.510s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[1.510s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[1.510s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[1.510s] -- Installing: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.510s] -- Installing: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.511s] -- Installing: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.511s] -- Installing: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.511s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[1.511s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[1.511s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.511s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[1.512s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.512s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.512s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.512s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.512s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[1.513s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[1.514s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[1.514s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[1.514s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[1.540s] Listing '/home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[1.540s] Listing '/home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[1.545s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.546s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.546s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.547s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[1.547s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[1.547s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[1.548s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[1.549s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[1.549s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[1.549s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[1.549s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[1.549s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[1.550s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[1.550s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[1.550s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[1.550s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[1.550s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[1.550s] -- Installing: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[1.550s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[1.551s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[1.551s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.552s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.552s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.552s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[1.553s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.557s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.558s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.558s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.558s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[1.558s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.559s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.559s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.559s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[1.559s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.560s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[1.560s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.560s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.561s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.561s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.562s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.562s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.564s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.565s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.565s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[1.565s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[1.565s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/more_interfaces/share/more_interfaces/package.xml
+[1.568s] Invoked command in '/home/expert_amateur/vbm_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/more_interfaces

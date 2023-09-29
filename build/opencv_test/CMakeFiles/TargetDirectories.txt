@@ -1,0 +1,11 @@
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/uninstall.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/opencv_test_uninstall.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/opencv_test_1.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/opencv_test_2.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/test.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/edit_cache.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/rebuild_cache.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/list_install_components.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/install.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/install/local.dir
+/home/expert_amateur/vbm_ws/build/opencv_test/CMakeFiles/install/strip.dir

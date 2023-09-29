@@ -1,0 +1,32 @@
+[0.214s] Invoking command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/rrbot_description_ros2 -- -j12 -l12
+[0.290s] Invoked command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/expert_amateur/vbm_ws/build/rrbot_description_ros2 -- -j12 -l12
+[0.363s] Invoking command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/rrbot_description_ros2
+[0.388s] -- Install configuration: ""
+[0.389s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf
+[0.389s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf/gazebo_properties.xacro
+[0.389s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf/gazebo_physics.xacro
+[0.390s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf/gazebo_plugins.xacro
+[0.390s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf/rrbot_properties.xacro
+[0.390s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf/rrbot.urdf
+[0.390s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf/materials.xacro
+[0.390s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf/macros.xacro
+[0.390s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/urdf/rrbot.xacro
+[0.390s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/launch
+[0.391s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/launch/simple_launch.py
+[0.404s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/lib/rrbot_description_ros2/inject_entity.py
+[0.405s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/ament_index/resource_index/package_run_dependencies/rrbot_description_ros2
+[0.405s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/ament_index/resource_index/parent_prefix_path/rrbot_description_ros2
+[0.405s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/environment/ament_prefix_path.sh
+[0.405s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/environment/ament_prefix_path.dsv
+[0.405s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/environment/path.sh
+[0.405s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/environment/path.dsv
+[0.406s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/local_setup.bash
+[0.406s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/local_setup.sh
+[0.406s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/local_setup.zsh
+[0.406s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/local_setup.dsv
+[0.406s] -- Installing: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.dsv
+[0.406s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/ament_index/resource_index/packages/rrbot_description_ros2
+[0.406s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/cmake/rrbot_description_ros2Config.cmake
+[0.406s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/cmake/rrbot_description_ros2Config-version.cmake
+[0.407s] -- Up-to-date: /home/expert_amateur/vbm_ws/install/rrbot_description_ros2/share/rrbot_description_ros2/package.xml
+[0.558s] Invoked command in '/home/expert_amateur/vbm_ws/build/rrbot_description_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/expert_amateur/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/expert_amateur/vbm_ws/build/rrbot_description_ros2
